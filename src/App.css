@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.home-container{
+  min-height: 100vh;
+  background-color: black;
+
+  
+}
+
+.component-container{
+  height: 90%;
+  display: flex;
+
+}
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+

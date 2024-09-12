@@ -1,0 +1,178 @@
+.dsp-album-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/*for medium device*/
+@media (min-width:768px){
+    .dsp-album-container{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-ends;
+    }
+}
+
+.dsp-album-img{
+    width: 150px;
+    border-radius: 8px;
+}
+
+
+.dsp-album-details-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.dsp-album-name{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+
+@media (max-width:768px){
+   .dsp-album-name{ font-size: 12px;}
+}
+
+.dsp-album-desc{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.dsp-album-content{
+    margin-top: 4px;
+    
+}
+
+
+.dsp-album-content-logo{
+    display: inline-block;
+    width: 19px;
+}
+
+
+/*songs list container*/
+
+.dsp-album-songslist-container{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+        margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    color: #a7a7a7;
+}
+
+
+
+@media (min-width:640px){
+    .dsp-album-songslist-container{
+        grid-template-columns: repeat(4,1fr);
+        
+    }
+}
+
+
+.dsp-album-songslist-title{
+    margin-right: 10px;
+}
+
+
+.dsp-album-songslist-date{
+    display: none;
+}
+
+@media  (min-width:640px) {
+    .dsp-album-songslist-date{
+        display:block;
+    }
+}
+
+.dsp-album-songslist-clock-img{
+    margin: auto;
+    width: 10px;
+}
+
+/*below add hover effect with bgcolor:#ffffff2b*/
+/* display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding-left: 8px;
+    color: #a7a7a7;
+    
+     margin-top: 10px;
+    margin-bottom: 8px;
+    padding-left: 8px;*/
+
+.dsp-album-songslist-item{
+    display: grid;
+    gap:4px;
+    grid-template-columns: repeat(4,1fr);
+   align-items: center;
+   padding: 8px;
+    color: #a7a7a7;
+    cursor: pointer;
+    
+
+}
+@media screen and (max-width: 630px) {
+    .dsp-album-songslist-item {
+      grid-template-columns: repeat(3, 1fr); /* Single column for smaller screens */
+    }
+  }
+
+
+
+@media (min-width:640px) {
+    .dsp-album-songslist-item-{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
+
+
+
+
+
+.dsp-album-songslist-item-title{
+    color: white;
+}
+
+.dsp-album-songslist-item-title-index{
+    margin-right: 10px;
+    color: #a7a7a7;
+
+}
+
+.dsp-album-songslist-item-title-img{
+display: inline;
+    width: 40px;
+    margin-right: 20px;
+}
+
+
+
+.dsp-album-songslist-item-name{
+    font-size: 15px;
+}
+
+.dsp-album-songslist-item-date{
+    font-size: 15px;
+    display: none;
+}
+
+@media (min-width:640px){
+    .dsp-album-songslist-item-date{
+        display: block;
+    }
+}
+
+
+.dsp-album-songslist-item-duration{
+    font-size: 15px;
+    text-align: center;
+}

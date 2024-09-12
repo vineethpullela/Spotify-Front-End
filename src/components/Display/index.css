@@ -1,0 +1,19 @@
+.dp-container{
+   width: 78%;
+   
+   padding: 15px 15px 0px 10px;
+   border-radius: 10px;
+
+   color: white;
+   overflow: auto;
+padding-left:20px; ;
+   
+}
+
+
+@media (max-width:480px){
+    .dp-container{
+        width: 100%;
+        margin: 8px;
+    }
+}

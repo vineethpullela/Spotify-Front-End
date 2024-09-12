@@ -1,0 +1,38 @@
+.albumitem-container{
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px; 
+    
+    
+}
+
+/*::-webkit-scrollbar{
+    display: none;
+  }*/
+/*:hover{
+        background-color: #ffffff26;
+    }
+        */
+
+
+
+
+.album-img{
+    border-radius: 10px;
+    
+    
+
+}
+
+.album-name{
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.albumitem-desc{
+    color: white;
+    font-weight: 200;
+    font-size: 12px;
+}
