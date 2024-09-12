@@ -43,14 +43,20 @@
 
 
 .dsp-album-content{
+    display: flex;
+   
     margin-top: 4px;
+   
     
 }
 
 
 .dsp-album-content-logo{
     display: inline-block;
-    width: 19px;
+    width: 30px;
+    margin-right: 5px;
+   
+   
 }
 
 

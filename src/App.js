@@ -4,7 +4,7 @@ import Display from "./components/Display"
 import Player from "./components/Player"
 import Sidebar from "./components/Sidebar"
 import { PlayerContext } from "./context/PlayerContext"
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const App=()=>{

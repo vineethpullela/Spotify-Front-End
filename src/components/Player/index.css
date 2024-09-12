@@ -28,13 +28,14 @@
     
 }
 
+/*
 .pr-content-name{
 
 }
 
 .pr-content-desc{
 
-}
+}*/
 
 .pr-audio{
     display: flex;
@@ -62,9 +63,10 @@
     gap: 10px;
 }
 
+/*
 .pr-audio-nav-p{
 
-}
+}*/
 
 .pr-audio-nav-sep{
     width: 60vw;
