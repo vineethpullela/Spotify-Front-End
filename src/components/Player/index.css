@@ -6,9 +6,17 @@
     align-items: center;
     color: white;
     padding: 0px 8px 10px 8px;
+    margin-top: 5px;
+    gap: 4px;
+    margin: 5px;
+    margin-right: 50px;
     
    
 }
+
+
+
+
 
 .pr-content-container{
     display: flex;   
@@ -17,7 +25,7 @@
 
 }
 
-@media (max-width:48px){
+@media (max-width:640px){
     .pr-content-container{
         display: none;
     }
@@ -70,7 +78,7 @@
 
 .pr-audio-nav-sep{
     width: 60vw;
-    max-width: 500px;
+    max-width: 320px;
     background: gray;
     border-radius: 8px;
     cursor: pointer;
@@ -87,6 +95,12 @@
     border-radius: 10px;
 }
 
+@media (max-width:600px) {
+    .pr-audio-nav-sep{
+       
+    }
+}
+
 .pr-audio-tool{
     display: flex;
     align-items: center;
@@ -96,7 +110,7 @@
 }
 
 
-@media (max-width:480px){
+@media (max-width:640px){
     .pr-audio-tool{
         display: none;
     }
