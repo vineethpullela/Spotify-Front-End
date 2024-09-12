@@ -10,11 +10,9 @@ const PlayerContextProvider=(props)=>{
     const audioRef=useRef();
     const seekBg=useRef();
     const seekBar=useRef();
-<<<<<<< HEAD
-    const url="http://localhost:4000";
-=======
+
     const url="https://spotify-backend-maog.onrender.com";
->>>>>>> c06d0a0833e71b425df0bfc43731e416da024810
+
     const [songsData,setSongsData]=useState([])
     const [albumsData,setAlbumsData]=useState([])
 
