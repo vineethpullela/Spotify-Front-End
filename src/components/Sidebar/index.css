@@ -20,7 +20,7 @@
 /*height:15% removed from from below css*/
 .sbr-content-container{
     background: #121212;  
-  height:20%
+  height:20%;
    display: flex;   
     flex-direction:column;
     justify-content: space-around;
