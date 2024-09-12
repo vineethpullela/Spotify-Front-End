@@ -33,7 +33,7 @@ const Player =()=>{
                 <div ref={seekBg} onClick={seekSong} className="pr-audio-nav-sep">
                     <hr ref={seekBar} className="pr-audio-nav-hr"/>
                 </div>
-                <p className="pr-audio-nav-p">{time.currentTime.minute}:{time.totalTime.second}</p>
+                <p className="pr-audio-nav-p">{time.currentTime.minute}:{time.currentTime.second}</p>
             </div>
         </div>
         <div className="pr-audio-tool">
