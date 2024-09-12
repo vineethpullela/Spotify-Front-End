@@ -13,7 +13,7 @@ const Player =()=>{
                 <img src={track.image} className="pr-content-img" alt="" />
             <div Style="gap:5px;">
             <p className="pr-content-name">{track.name}</p>
-            <p className="pr-content-desc">{track.desc.slice(0,20)}</p>
+            <p className="pr-content-desc">{track.desc.slice(0,15)}</p>
             </div>            
         </div>
         <div className="pr-audio">
